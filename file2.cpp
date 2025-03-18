@@ -4,7 +4,6 @@
 using namespace std;
 
 int main(){
-    //Perulangan While
     int x;
     int perulanganWhile = 0;
     int perulanganDo = 0;
@@ -19,6 +18,7 @@ int main(){
         x = rand() % 10;
         perulanganWhile;
     }
+
     cout << "Nilai x terakhir = " << x << endl;
     cout << "Jumlah Perulangan = " << perulanganWhile << endl;
 
